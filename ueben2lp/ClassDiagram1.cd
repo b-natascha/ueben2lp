@@ -1,42 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="ueben2lp.GeometricRectangle">
-    <Position X="4.25" Y="2.25" Width="1.5" />
+    <Position X="6.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GeometricRectangle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ueben2lp.GeometricTriangle">
-    <Position X="2.5" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>GeometricRectangle.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ueben2lp.GeometricCircle">
-    <Position X="0.75" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
-      <FileName>GeometricRectangle.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="ueben2lp.GeometricObject">
-    <Position X="2.5" Y="1" Width="1.5" />
+    <Position X="4.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GeometricObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ueben2lp.DrawObject">
-    <Position X="4.5" Y="4" Width="1.5" />
+    <Position X="4.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DrawObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ueben2lp.DrawCircle">
-    <Position X="0.5" Y="5.25" Width="1.5" />
+    <Position X="1" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DrawCircle.cs</FileName>
@@ -57,66 +43,104 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ueben2lp.Visitor">
-    <Position X="9" Y="0.75" Width="1.5" />
+    <Position X="9.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Visitor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ueben2lp.DrawRectangleNormal">
-    <Position X="8.75" Y="7" Width="1.5" />
+  <Class Name="ueben2lp.DrawRectangleDifBorder">
+    <Position X="12" Y="7.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawRectangleDifBorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ueben2lp.VisitorDraw">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisitorDraw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ueben2lp.DrawTriangleUL">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawTrianlgeUL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ueben2lp.DrawTriangleUR">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawTrianlgeUR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ueben2lp.DrawTriangleLL">
+    <Position X="6.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawTriangleLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ueben2lp.DrawTriangleLR">
+    <Position X="8" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawTriangleLR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ueben2lp.DrawCircleNormal">
+    <Position X="1" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawCircleNormal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ueben2lp.DrawRectangleNormal">
+    <Position X="9.75" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DrawRectangleNormal.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ueben2lp.DrawRectangleCrazy">
-    <Position X="12.25" Y="7" Width="1.5" />
+    <Position X="14.25" Y="7.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DrawRectangleNormal.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAA=</HashCode>
+      <FileName>DrawRectangleCrazy.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ueben2lp.DrawRectangleDifBorder">
-    <Position X="10.5" Y="7" Width="1.5" />
+  <Class Name="ueben2lp.Character">
+    <Position X="12.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DrawRectangleBorder.cs</FileName>
+      <HashCode>AAAAACAAAAAgAAAAAAAAAAAACAAAAAgAAQAAAAEAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ueben2lp.VisitorDraw">
-    <Position X="9" Y="2.5" Width="1.5" />
+  <Class Name="ueben2lp.Position">
+    <Position X="14.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>VisitorDraw.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Position.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ueben2lp.TriangleUL">
-    <Position X="1.5" Y="7" Width="1.5" />
+  <Class Name="ueben2lp.GeometricTriangle">
+    <Position X="4.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TrianlgeUL.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeometricTriangle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ueben2lp.TriangleUR">
-    <Position X="3.25" Y="7" Width="1.5" />
+  <Class Name="ueben2lp.GeometricCircle">
+    <Position X="2.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TrianlgeUR.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ueben2lp.TriangleLL">
-    <Position X="5" Y="7" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TriangleLL.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ueben2lp.TriangleLR">
-    <Position X="6.75" Y="7" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TriangleLR.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>GeometricCircle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

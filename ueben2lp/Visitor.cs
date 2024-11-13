@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ueben2lp
+﻿namespace ueben2lp
 {
-    public class Visitor
-    {
-    }
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
+    public abstract class Visitor;
 }

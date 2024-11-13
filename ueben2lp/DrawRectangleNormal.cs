@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ueben2lp
+﻿namespace ueben2lp
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
     public class DrawRectangleNormal : DrawRectangle
     {
-    }
+        private Character character;
 
-    public class DrawRectangleCrazy : DrawRectangle
-    {
+        public override void accept(Visitor visitor)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

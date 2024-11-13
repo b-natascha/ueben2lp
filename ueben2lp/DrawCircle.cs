@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ueben2lp
+﻿namespace ueben2lp
 {
-    public class DrawCircle : DrawObject
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
+    public abstract class DrawCircle : DrawObject
     {
-        private int geometricCircle;
+        protected GeometricCircle geometricCircle;
     }
 }

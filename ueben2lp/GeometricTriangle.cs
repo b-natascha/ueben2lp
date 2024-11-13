@@ -5,8 +5,8 @@
     using System.Linq;
     using System.Text;
 
-    public abstract class DrawTriangle : DrawObject
+    public class GeometricTriangle : GeometricObject
     {
-        protected GeometricTriangle geometricTriangle;
+        private int height;
     }
 }

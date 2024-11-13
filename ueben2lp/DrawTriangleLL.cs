@@ -5,11 +5,11 @@
     using System.Linq;
     using System.Text;
 
-    internal class Program
+    public class DrawTriangleLL : DrawTriangle
     {
-        static void Main(string[] args)
+        public override void accept(Visitor visitor)
         {
-            Console.WriteLine("Hello, World!");
+            throw new System.NotImplementedException();
         }
     }
 }

@@ -5,8 +5,9 @@
     using System.Linq;
     using System.Text;
 
-    public abstract class DrawTriangle : DrawObject
+    public class Position
     {
-        protected GeometricTriangle geometricTriangle;
+        private int xPosition;
+        private int yPosition;
     }
 }

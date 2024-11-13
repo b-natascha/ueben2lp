@@ -5,9 +5,12 @@
     using System.Linq;
     using System.Text;
 
-    public class VisitorDraw : Visitor
+    public class DrawRectangleCrazy : DrawRectangle
     {
-        public void visit()
+        private Character firstCharacter;
+        private Character secondCharacter;
+
+        public override void accept(Visitor visitor)
         {
             throw new System.NotImplementedException();
         }
